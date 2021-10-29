@@ -1,0 +1,2 @@
+======================================[2021-07-26]====================================
+ALTER TABLE `subscriptions` CHANGE `billing_period` `billing_period` ENUM('day','month','year','lifetime') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'month';
